@@ -101,3 +101,11 @@ finally{
   console.log("finally");
 
 }
+
+function Person(id, fullName){
+this.id = id;
+this.fullName = fullName;
+}
+
+let person3 = new Person(1,"One");
+console.log(person3);
