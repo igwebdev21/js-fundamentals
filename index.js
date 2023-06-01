@@ -118,4 +118,6 @@ const ar = [3,4,5];
 const ar2 = [7,8,9];
 const ar3 = [...ar, ...ar2];
 console.log(ar3);
+const [n1,n2,...ar4]=ar3;
+console.log(n1,n2,ar4);
 
