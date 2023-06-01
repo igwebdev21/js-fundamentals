@@ -109,3 +109,13 @@ this.fullName = fullName;
 
 let person3 = new Person(1,"One");
 console.log(person3);
+
+var cityCA = {state: 'CA', name: 'London', isCapital: false};
+var cityUK = {...cityCA, isCapital: true, state: 'UK'};
+console.log(cityUK);
+
+const ar = [3,4,5];
+const ar2 = [7,8,9];
+const ar3 = [...ar, ...ar2];
+console.log(ar3);
+
